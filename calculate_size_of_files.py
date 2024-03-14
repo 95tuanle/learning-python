@@ -6,7 +6,6 @@ def file_info():
     if path.exists(".") and path.isdir("."):
         contents = listdir(".")
         for item in contents:
-            # print(item)
             result += path.getsize(path.join(".", item))
     return result
 
