@@ -1,11 +1,11 @@
 import calendar
 
 
-def count_days(year, month, whichday):
+def count_days(year, month, which_day):
     result = 0
     cal = calendar.monthcalendar(year, month)
     for week in cal:
-        if week[whichday] != 0:
+        if week[which_day] != 0:
             result += 1
     return result
 
