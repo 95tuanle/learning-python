@@ -16,5 +16,6 @@ def main():
     print("There are", count_days(2022, 8, calendar.SUNDAY), "Sundays in August 2022")
     print("There are", count_days(2022, 8, calendar.MONDAY), "Mondays in August 2022")
 
+
 if __name__ == "__main__":
     main()
