@@ -33,4 +33,3 @@ for m in range(1, 13):
         meet_day = week_two[calendar.FRIDAY]
 
     print(calendar.month_name[m], meet_day)
-

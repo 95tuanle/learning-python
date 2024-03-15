@@ -6,7 +6,7 @@ from zipfile import ZipFile
 
 def main():
     if path.exists("text-file.txt"):
-    # if path.exists("text-file.txt.bak"):
+        # if path.exists("text-file.txt.bak"):
         src = path.realpath("text-file.txt")
 
         dst = src + ".bak"
